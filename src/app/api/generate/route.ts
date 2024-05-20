@@ -1,7 +1,7 @@
 import { NextResponse, NextRequest } from "next/server";
 import { sunoApi } from "@/lib/SunoApi";
 import { corsHeaders } from "@/lib/utils";
-export const maxDuration = 600;
+export const maxDuration = 300;
 
 export const dynamic = "force-dynamic";
 
